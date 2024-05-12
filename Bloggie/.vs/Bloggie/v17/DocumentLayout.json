@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{030B47E6-E405-4546-9255-ECBD42E8B2C6}|Bloggie\\Bloggie.csproj|d:\\c#_asp_net_core\\razor\\bloggie\\bloggie\\pages\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{030B47E6-E405-4546-9255-ECBD42E8B2C6}|Bloggie\\Bloggie.csproj|solutionrelative:bloggie\\pages\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030B47E6-E405-4546-9255-ECBD42E8B2C6}|Bloggie\\Bloggie.csproj|d:\\c#_asp_net_core\\razor\\bloggie\\bloggie\\pages\\tags\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{030B47E6-E405-4546-9255-ECBD42E8B2C6}|Bloggie\\Bloggie.csproj|solutionrelative:bloggie\\pages\\tags\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030B47E6-E405-4546-9255-ECBD42E8B2C6}|Bloggie\\Bloggie.csproj|d:\\c#_asp_net_core\\razor\\bloggie\\bloggie\\pages\\tags\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030B47E6-E405-4546-9255-ECBD42E8B2C6}|Bloggie\\Bloggie.csproj|solutionrelative:bloggie\\pages\\tags\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030B47E6-E405-4546-9255-ECBD42E8B2C6}|Bloggie\\Bloggie.csproj|d:\\c#_asp_net_core\\razor\\bloggie\\bloggie\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{030B47E6-E405-4546-9255-ECBD42E8B2C6}|Bloggie\\Bloggie.csproj|solutionrelative:bloggie\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030B47E6-E405-4546-9255-ECBD42E8B2C6}|Bloggie\\Bloggie.csproj|d:\\c#_asp_net_core\\razor\\bloggie\\bloggie\\repositories\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030B47E6-E405-4546-9255-ECBD42E8B2C6}|Bloggie\\Bloggie.csproj|solutionrelative:bloggie\\repositories\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{030B47E6-E405-4546-9255-ECBD42E8B2C6}|Bloggie\\Bloggie.csproj|d:\\c#_asp_net_core\\razor\\bloggie\\bloggie\\repositories\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{030B47E6-E405-4546-9255-ECBD42E8B2C6}|Bloggie\\Bloggie.csproj|solutionrelative:bloggie\\repositories\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Pages\\Blog\\Details.cshtml",
+              "RelativeDocumentMoniker": "Bloggie\\Pages\\Blog\\Details.cshtml",
+              "ToolTip": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Pages\\Blog\\Details.cshtml",
+              "RelativeToolTip": "Bloggie\\Pages\\Blog\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T17:55:01.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bloggie\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Bloggie\\Pages\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T17:50:02.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlogPostRepository.cs",
+              "DocumentMoniker": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Repositories\\BlogPostRepository.cs",
+              "RelativeDocumentMoniker": "Bloggie\\Repositories\\BlogPostRepository.cs",
+              "ToolTip": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Repositories\\BlogPostRepository.cs",
+              "RelativeToolTip": "Bloggie\\Repositories\\BlogPostRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:35:06.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBlogPostRepository.cs",
+              "DocumentMoniker": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Repositories\\IBlogPostRepository.cs",
+              "RelativeDocumentMoniker": "Bloggie\\Repositories\\IBlogPostRepository.cs",
+              "ToolTip": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Repositories\\IBlogPostRepository.cs",
+              "RelativeToolTip": "Bloggie\\Repositories\\IBlogPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:43:46.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Pages\\Tags\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Bloggie\\Pages\\Tags\\Details.cshtml.cs",
+              "ToolTip": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Pages\\Tags\\Details.cshtml.cs",
+              "RelativeToolTip": "Bloggie\\Pages\\Tags\\Details.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:43:30.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Pages\\Tags\\Details.cshtml",
+              "RelativeDocumentMoniker": "Bloggie\\Pages\\Tags\\Details.cshtml",
+              "ToolTip": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Pages\\Tags\\Details.cshtml",
+              "RelativeToolTip": "Bloggie\\Pages\\Tags\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T17:42:55.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+﻿@page "{id:Guid}"
+@model Bloggie.Pages.Admin.Blogs.EditModel
+@{
+}
+
+<div class="bg-secondary bg-opacity-10 py-2 mb-5">
+    <div class="container">
+        <h1>Edit Blog Post</h1>
+    </div>
+</div>
+
+<partial name="_Notification"></partial>
+
+@if(Model.blogPost != null)
+{
+    <div>
+        <div class="container">
+            <form method="post">
+
+                <div class="mb-3">
+                    <label for="id" class="form-label">Id</label>
+                    <input type="text" class="form-control" id="id" asp-for="blogPost.Id" readonly>
+                </div>
+
+                <div class="mb-3">
+                    <label for="heading" class="form-label">Heading</label>
+                    <input type="text" class="form-control" id="heading" asp-for="blogPost.Heading">
+                </div>
+
+                <div class="mb-3">
+                    <label for="pageTitle" class="form-label">Page Title</label>
+                    <input type="text" class="form-control" id="pageTitle" asp-for="blogPost.PageTitle">
+                </div>
+
+                <div class="mb-3">
+                    <label for="content" class="form-label">Content</label>
+                    <textarea class="form-control" id="content" asp-for="blogPost.Content"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="shortDescription" class="form-label">Short Description</label>
+                    <input type="text" class="form-control" id="shortDescription" asp-for="blogPost.ShortDescripttion">
+                </div>
+
+                <div class="mb-3">
+                    <label for="featuredImageUpload" class="form-label">Featured Image Upload</label>
+                    <input type="file" id="featuredImageUpload" asp-for="FeaturedImage">
+                    @if(Model.blogPost.FeaturedImageUrl != null)
+                    {
+                        <img src="@Model.blogPost.FeaturedImageUrl" id="featuredImageDisplay" style="width=" 300px" />
+                    }
+                    else
+                    {
+                        <img src="" id="featuredImageDisplay" style="display:none" ; width="300px" />
+                    }                                             
+                        
+                </div>
+
+                <div class="mb-3">
+                    <label for="featuredImageUrl" class="form-label">Featured Image Url</label>
+                    <input type="text" class="form-control" id="featuredImageUrl" asp-for="blogPost.FeaturedImageUrl" readonly>
+                </div>
+
+                <div class="mb-3">
+                    <label for="urlHandle" class="form-label">Url Handle</label>
+                    <input type="text" class="form-control" id="urlHandle" asp-for="blogPost.UrlHandle">
+                </div>
+
+                <div class="mb-3">
+                    <label for="publishedDate" class="form-label">Published Date</label>
+                    <input type="date" class="form-control" id="publishedDate" asp-for="blogPost.PublishedDate">
+                </div>
+
+                <div class="mb-3">
+                    <label for="author" class="form-label">Author</label>
+                    <input type="text" class="form-control" id="author" asp-for="blogPost.Author">
+                </div>
+
+                <div class="mb-3">
+                    <label for="tags" class="form-label">Tags(comma separated)</label>
+                    <input type="text" class="form-control" id="tags" asp-for="Tags">
+                </div>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="isVisible" asp-for="blogPost.Visible">
+                    <label class="form-check-label" for="isVisible">
+                        Is Visible
+                    </label>
+                </div>
+
+                <div class="mb-3 d-flex justify-content-between">
+                    <button class="btn btn-primary" type="submit" asp-page-handler="Edit">Save</button>
+                    <button class="btn btn-danger" type="submit" asp-page-handler="Delete">Delete</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+}
+else
+{
+    <div class="container">Blog Post Not Found!</div>
+}
+
+@section Scripts {
+    <script>
+        var editor = new FroalaEditor('#content', {
+            imageUploadUrl: '/api/images'
+        })
+
+        const featureImageUploadElement = document.getElementById('featuredImageUpload');
+        const featureImageUrlElement = document.getElementById('featuredImageUrl');
+        const featuredImageDisplayElement = document.getElementById('featuredImageDisplay');
+
+        async function uploadFeaturedImage(e) {
+            console.log(e.target.files[0]);
+
+            let data = new FormData();
+            data.append('file', e.target.files[0])
+
+            await fetch('/api/images', {
+                method: 'POST',
+                headers: {
+                    'Accept': '*/*'
+                },
+                body: data
+            }).then(response => response.json()).then(result => {
+                featureImageUrlElement.value = result.link;
+                featuredImageDisplayElement.style.display = 'block';
+                featuredImageDisplayElement.src = result.link
+            })
+        }
+
+
+        featureImageUploadElement.addEventListener('change', uploadFeaturedImage)
+    </script>
+}
+
