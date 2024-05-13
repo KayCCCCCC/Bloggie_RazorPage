@@ -9,63 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bloggie
 build_property.RootNamespace = Bloggie
-build_property.ProjectDir = D:\C#_ASP_NET_CORE\RAZOR\Bloggie\Bloggie\
+build_property.ProjectDir = D:\C#_ASP_NET_CORE\RAZOR\Bloggie_RazorPage\Bloggie\Bloggie\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\C#_ASP_NET_CORE\RAZOR\Bloggie\Bloggie
+build_property.MSBuildProjectDirectory = D:\C#_ASP_NET_CORE\RAZOR\Bloggie_RazorPage\Bloggie\Bloggie
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/Admin/Blogs/Add.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Admin/Blogs/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQmxvZ3NcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/Admin/Blogs/Edit.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Admin/Blogs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQmxvZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/Admin/Blogs/List.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Admin/Blogs/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQmxvZ3NcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/Blog/Details.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Blog/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/Error.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/Index.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/Privacy.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/Shared/_Notification.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/Tags/Details.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Tags/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFnc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/_ViewImports.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/_ViewStart.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie/Bloggie/Pages/Shared/_Layout.cshtml]
+[D:/C\#_ASP_NET_CORE/RAZOR/Bloggie_RazorPage/Bloggie/Bloggie/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-v3s1tmoodd

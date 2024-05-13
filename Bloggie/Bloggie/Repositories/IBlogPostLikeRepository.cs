@@ -1,0 +1,12 @@
+﻿using Bloggie.Models.Domain;
+
+namespace Bloggie.Repositories
+{
+    public interface IBlogPostLikeRepository
+    {
+        Task<int> GetTotalLikesForBlog(Guid blogPostId);
+        Task AddLikeForBlog(Guid blogPostId, Guid userId);
+
+        Task<IEnumerable<BlogPostLike>> GetLikesForBlog(Guid blogPostId);
+    }
+}

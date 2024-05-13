@@ -1,12 +1,14 @@
 using Bloggie.Models.Domain;
 using Bloggie.Models.ViewModels;
 using Bloggie.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Text.Json;
 
 namespace Bloggie.Pages.Admin.Blogs
 {
+    [Authorize(Roles ="Admin")]
     public class AddModel : PageModel
     {
         private readonly IBlogPostRepository blogPostRepository;

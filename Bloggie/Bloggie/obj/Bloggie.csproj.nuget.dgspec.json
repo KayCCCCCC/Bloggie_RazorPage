@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Bloggie.csproj": {}
+    "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie_RazorPage\\Bloggie\\Bloggie\\Bloggie.csproj": {}
   },
   "projects": {
-    "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Bloggie.csproj": {
+    "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie_RazorPage\\Bloggie\\Bloggie\\Bloggie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Bloggie.csproj",
+        "projectUniqueName": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie_RazorPage\\Bloggie\\Bloggie\\Bloggie.csproj",
         "projectName": "Bloggie",
-        "projectPath": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\Bloggie.csproj",
+        "projectPath": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie_RazorPage\\Bloggie\\Bloggie\\Bloggie.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie\\Bloggie\\obj\\",
+        "outputPath": "D:\\C#_ASP_NET_CORE\\RAZOR\\Bloggie_RazorPage\\Bloggie\\Bloggie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
             "CloudinaryDotNet": {
               "target": "Package",
               "version": "[1.26.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
